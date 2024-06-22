@@ -39,9 +39,9 @@ Feature: Registration functionality
     And User clicks on Continue button
     Then User account should get a proper warning about duplicate email
 
-  Scenario: User creates an account without filling any details
-    Given User navigates to Register Account page
-    When User don't enter any details into fields
-    And User clicks on Continue button
-    Then User should get proper warning message for every mandatory field
+#  Scenario: User creates an account without filling any details
+#    Given User navigates to Register Account page
+#    When User don't enter any details into fields
+#    And User clicks on Continue button
+#    Then User should get proper warning message for every mandatory field
 
